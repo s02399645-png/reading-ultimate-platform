@@ -15,9 +15,13 @@ for (const f of files) {
   for (const g of p.groups) for (const q of g.questions) {
     if (seen.has(q.id)) problems.push(`${f}: duplicate question id ${q.id}`);
     seen.add(q.id);
-    if (!sids.has(q.evidence)) problems.push(`${f}: ${q.id} evidence "${q.evidence}" is not a sentence id`);
-    if (q.options && !q.options.some(o => (g.type === 'mcq' ? o[0] : o) === q.answer)) problems.push(`${f}: ${q.id} answer "${q.answer}" not among options`);
-    if (!q.explanation?.en || !q.explanation?.ru) problems.push(`${f}: ${q.id} missing EN/RU explanation`);
+    if (q.evidence && !sids.has(q.evidence)) problems.push(`${f}: ${q.id} evidence "${q.evidence}" is not a sentence id`);
+    if (q.answer === undefined || q.answer === '' || (Array.isArray(q.answer) && !q.answer.length)) problems.push(`${f}: ${q.id} has no answer`);
+    if (q.options && !Array.isArray(q.answer)) {
+      const keys = q.options.map(o => (g.type === 'mcq' || g.type === 'multi') ? o.charAt(0) : o);
+      if (!keys.includes(q.answer)) problems.push(`${f}: ${q.id} answer "${q.answer}" not among options`);
+    }
+    if (p.format !== 'test' && (!q.explanation?.en || !q.explanation?.ru)) problems.push(`${f}: ${q.id} missing EN/RU explanation`);
   }
   if (f.replace('.json', '') !== p.id) problems.push(`${f}: id "${p.id}" does not match filename`);
 }
