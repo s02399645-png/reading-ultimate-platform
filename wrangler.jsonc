@@ -1,0 +1,13 @@
+{
+  // One Worker serves the website (dist/) and the API (/api/*). Cloudflare builds and deploys it from GitHub.
+  "name": "marginalia",
+  "main": "worker/src/index.js",
+  "compatibility_date": "2026-10-01",
+  "assets": { "directory": "./dist", "binding": "ASSETS", "run_worker_first": ["/api/*"] },
+  // No database_id on purpose: Cloudflare creates the D1 database for you on first deploy.
+  "d1_databases": [{ "binding": "DB", "database_name": "marginalia" }],
+  "vars": {
+    "INACTIVE_DAYS": "5",
+    "PBKDF2_ITERATIONS": "20000"
+  }
+}

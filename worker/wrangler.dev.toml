@@ -1,0 +1,19 @@
+# Local development: one origin (http://localhost:8787) serves the static site AND the API.
+# Run:  npx wrangler dev -c wrangler.dev.toml --local --persist-to .wrangler/state
+name = "marginalia-dev"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+[assets]
+directory = "../dist"
+binding = "ASSETS"
+run_worker_first = ["/api/*"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "marginalia"
+database_id = "local-dev"
+
+[vars]
+ALLOWED_ORIGIN = "http://localhost:8787"
+INACTIVE_DAYS = "5"

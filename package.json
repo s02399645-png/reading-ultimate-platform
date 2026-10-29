@@ -1,0 +1,16 @@
+{
+  "name": "marginalia",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "passages": "node scripts/build-passages.mjs",
+    "build": "node scripts/build-passages.mjs && node scripts/build-site.mjs",
+    "dev": "npm run build && cd worker && wrangler dev -c wrangler.dev.toml --local --persist-to .wrangler/state",
+    "db:local": "cd worker && wrangler d1 execute marginalia -c wrangler.dev.toml --local --persist-to .wrangler/state --file=schema.sql",
+    "deploy:api": "npm run passages && cd worker && wrangler deploy",
+    "deploy:site": "node scripts/build-site.mjs && wrangler pages deploy dist --project-name=marginalia"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}

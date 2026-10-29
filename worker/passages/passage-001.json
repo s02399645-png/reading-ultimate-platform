@@ -1,0 +1,249 @@
+{
+  "id": "passage-001",
+  "title": "Cities That Listen",
+  "subtitle": "How urban planners came to value quiet",
+  "level": "Band 6.5–7",
+  "minutes": 20,
+  "paragraphs": [
+    {
+      "id": "p1",
+      "label": "A",
+      "sentences": [
+        { "id": "p1s1", "text": "For most of the twentieth century, city planners treated noise as an unavoidable cost of urban life." },
+        { "id": "p1s2", "text": "Their usual response was to build barriers, such as earth banks and concrete walls, beside busy roads." },
+        { "id": "p1s3", "text": "These structures reduced the sound reaching nearby homes, but they did nothing to lessen the noise at its source." },
+        { "id": "p1s4", "text": "It was only in the 1990s that researchers began to argue that quiet deserved the same attention as clean air." }
+      ]
+    },
+    {
+      "id": "p2",
+      "label": "B",
+      "sentences": [
+        { "id": "p2s1", "text": "The case for this view rested on a growing body of medical evidence." },
+        { "id": "p2s2", "text": "A study of schoolchildren living beneath a busy flight path in Munich found that their reading scores improved after the old airport closed." },
+        { "id": "p2s3", "text": "Separate research linked long-term exposure to night-time traffic noise with raised blood pressure in adults." },
+        { "id": "p2s4", "text": "However, the scientists involved were careful to note that noise was only one of several possible causes." }
+      ]
+    },
+    {
+      "id": "p3",
+      "label": "C",
+      "sentences": [
+        { "id": "p3s1", "text": "Copenhagen was among the first cities to act on the findings." },
+        { "id": "p3s2", "text": "In 2004, it began laying a quieter type of road surface, made from rubberised asphalt, on its most heavily used streets." },
+        { "id": "p3s3", "text": "Engineers estimated that the new surface cut tyre noise by up to four decibels, a reduction roughly equal to halving the number of cars." },
+        { "id": "p3s4", "text": "The programme cost about 15 per cent more than conventional resurfacing, which some councillors initially opposed." }
+      ]
+    },
+    {
+      "id": "p4",
+      "label": "D",
+      "sentences": [
+        { "id": "p4s1", "text": "Not every solution relied on new materials." },
+        { "id": "p4s2", "text": "In Barcelona, officials closed several side streets to through traffic and gave the space to pedestrians, a scheme they called superblocks." },
+        { "id": "p4s3", "text": "Residents reported that conversations on balconies, once impossible, became easy again." },
+        { "id": "p4s4", "text": "Shopkeepers, who feared a loss of custom, later admitted that takings had in fact risen." }
+      ]
+    },
+    {
+      "id": "p5",
+      "label": "E",
+      "sentences": [
+        { "id": "p5s1", "text": "Critics argue that such projects benefit wealthier districts first." },
+        { "id": "p5s2", "text": "Quiet neighbourhoods tend to attract higher property prices, which can push out the very residents the schemes were meant to help." },
+        { "id": "p5s3", "text": "A few cities have responded by tying funding for quiet zones to commitments on affordable housing." },
+        { "id": "p5s4", "text": "Whether these measures will be enough remains an open question." }
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": "g1",
+      "type": "tfng",
+      "typeLabel": "T/F/NG",
+      "title": "Questions 1–5",
+      "instructions": {
+        "en": "Do the following statements agree with the information in the passage? Choose TRUE if the statement agrees with the information, FALSE if it contradicts the information, or NOT GIVEN if there is no information on this.",
+        "ru": "Соответствуют ли утверждения информации в тексте? Выберите TRUE, если утверждение совпадает с текстом, FALSE, если противоречит ему, и NOT GIVEN, если в тексте об этом ничего не сказано."
+      },
+      "questions": [
+        {
+          "id": "q1", "n": 1,
+          "prompt": "Early city planners tried to reduce noise at its source.",
+          "options": ["TRUE", "FALSE", "NOT GIVEN"],
+          "answer": "FALSE",
+          "evidence": "p1s3",
+          "paraphrase": { "question": "reduce noise at its source", "passage": "did nothing to lessen the noise at its source" },
+          "explanation": {
+            "en": "The passage says barriers cut the sound reaching homes but did nothing to lessen noise at the source. The statement says the opposite, so it contradicts the text: FALSE.",
+            "ru": "В тексте сказано, что барьеры снижали шум, доходивший до домов, но не уменьшали шум у источника. Утверждение говорит обратное — значит, оно противоречит тексту: FALSE."
+          },
+          "wrong": {
+            "TRUE": { "en": "TRUE would need the text to say planners did lower noise at the source. It says the reverse.", "ru": "TRUE было бы верно, если бы планировщики снижали шум у источника. В тексте — наоборот." },
+            "NOT GIVEN": { "en": "The topic is covered directly in sentence 3 of paragraph A, so information is given.", "ru": "Эта тема прямо раскрыта в третьем предложении абзаца A, значит информация есть." }
+          }
+        },
+        {
+          "id": "q2", "n": 2,
+          "prompt": "In the 1990s, some researchers claimed that quiet was as important as clean air.",
+          "options": ["TRUE", "FALSE", "NOT GIVEN"],
+          "answer": "TRUE",
+          "evidence": "p1s4",
+          "paraphrase": { "question": "claimed that quiet was as important as clean air", "passage": "argue that quiet deserved the same attention as clean air" },
+          "explanation": {
+            "en": "'Began to argue' matches 'claimed', and 'deserved the same attention' matches 'as important as'. The meaning is the same: TRUE.",
+            "ru": "«Began to argue» = «claimed», «deserved the same attention» = «as important as». Смысл совпадает: TRUE."
+          },
+          "wrong": {
+            "FALSE": { "en": "Nothing in the text contradicts the claim. The same words, reordered, say the same thing.", "ru": "Ничто в тексте не противоречит утверждению — те же идеи, просто другими словами." },
+            "NOT GIVEN": { "en": "The 1990s and the clean-air comparison both appear in sentence 4 of paragraph A.", "ru": "И 1990-е, и сравнение с чистым воздухом есть в четвёртом предложении абзаца A." }
+          }
+        },
+        {
+          "id": "q3", "n": 3,
+          "prompt": "Children's reading results in Munich got better once the airport had shut.",
+          "options": ["TRUE", "FALSE", "NOT GIVEN"],
+          "answer": "TRUE",
+          "evidence": "p2s2",
+          "paraphrase": { "question": "reading results … got better once the airport had shut", "passage": "reading scores improved after the old airport closed" },
+          "explanation": {
+            "en": "'Results' = 'scores', 'got better' = 'improved', 'shut' = 'closed'. Every part of the statement is confirmed: TRUE.",
+            "ru": "«Results» = «scores», «got better» = «improved», «shut» = «closed». Каждая часть утверждения подтверждена: TRUE."
+          },
+          "wrong": {
+            "FALSE": { "en": "Nothing says scores fell or stayed flat. The text says they improved.", "ru": "Нигде не сказано, что результаты упали или не изменились. Сказано: улучшились." },
+            "NOT GIVEN": { "en": "The Munich study is described in detail in paragraph B, so this is not missing.", "ru": "Исследование в Мюнхене подробно описано в абзаце B, значит информация есть." }
+          }
+        },
+        {
+          "id": "q4", "n": 4,
+          "prompt": "All councillors in Copenhagen welcomed the new road surface.",
+          "options": ["TRUE", "FALSE", "NOT GIVEN"],
+          "answer": "FALSE",
+          "evidence": "p3s4",
+          "paraphrase": { "question": "All councillors … welcomed", "passage": "some councillors initially opposed" },
+          "explanation": {
+            "en": "'Some councillors initially opposed' the cost, so it cannot be true that all of them welcomed it. The word 'all' is the trap: FALSE.",
+            "ru": "Часть советников сначала возражала, поэтому нельзя сказать, что приветствовали все. Ловушка — слово «all»: FALSE."
+          },
+          "wrong": {
+            "TRUE": { "en": "TRUE ignores the word 'all'. Some opposition is enough to break it.", "ru": "TRUE не учитывает слово «all». Достаточно, чтобы часть была против." },
+            "NOT GIVEN": { "en": "Councillors' reactions are given in the last sentence of paragraph C.", "ru": "Реакция советников описана в последнем предложении абзаца C." }
+          }
+        },
+        {
+          "id": "q5", "n": 5,
+          "prompt": "Barcelona's superblocks led to a fall in air pollution.",
+          "options": ["TRUE", "FALSE", "NOT GIVEN"],
+          "answer": "NOT GIVEN",
+          "evidence": "p4s2",
+          "paraphrase": { "question": "superblocks led to a fall in air pollution", "passage": "closed several side streets … a scheme they called superblocks" },
+          "explanation": {
+            "en": "Paragraph D describes quieter conversations and higher shop takings, but air pollution is never mentioned. You cannot confirm or deny it: NOT GIVEN.",
+            "ru": "В абзаце D говорится о тишине и выручке магазинов, но о загрязнении воздуха нет ни слова. Подтвердить или опровергнуть нельзя: NOT GIVEN."
+          },
+          "wrong": {
+            "TRUE": { "en": "It sounds logical that fewer cars means cleaner air, but the text never says it. Do not use outside knowledge.", "ru": "Логично, что меньше машин — чище воздух, но в тексте этого нет. Не используйте знания из головы." },
+            "FALSE": { "en": "Nothing contradicts the idea either. The text is simply silent.", "ru": "Тексту это тоже не противоречит — он просто молчит." }
+          }
+        }
+      ]
+    },
+    {
+      "id": "g2",
+      "type": "mcq",
+      "typeLabel": "Multiple choice",
+      "title": "Questions 6–7",
+      "instructions": {
+        "en": "Choose the correct letter, A, B, C or D.",
+        "ru": "Выберите правильную букву: A, B, C или D."
+      },
+      "questions": [
+        {
+          "id": "q6", "n": 6,
+          "prompt": "What point does the writer make about the medical research in paragraph B?",
+          "options": [
+            "A. It proved that noise causes heart disease.",
+            "B. The scientists accepted that noise might not be the only factor.",
+            "C. It concentrated mainly on adults.",
+            "D. It was carried out in Copenhagen."
+          ],
+          "answer": "B",
+          "evidence": "p2s4",
+          "paraphrase": { "question": "might not be the only factor", "passage": "noise was only one of several possible causes" },
+          "explanation": {
+            "en": "The last sentence says the scientists were careful to note that noise was only one of several possible causes. That is option B in different words.",
+            "ru": "Последнее предложение: учёные подчеркнули, что шум — лишь одна из нескольких возможных причин. Это вариант B другими словами."
+          },
+          "wrong": {
+            "A": { "en": "The text says noise was 'linked' with raised blood pressure. 'Linked' is not 'proved', and blood pressure is not heart disease.", "ru": "В тексте шум «связан» с повышенным давлением. «Связан» — не «доказано», а давление — не болезнь сердца." },
+            "C": { "en": "One study was about schoolchildren, so the research was not mainly about adults.", "ru": "Одно из исследований — про школьников, так что оно не было в основном про взрослых." },
+            "D": { "en": "The study mentioned took place in Munich. Copenhagen appears in paragraph C.", "ru": "Исследование проходило в Мюнхене. Копенгаген появляется в абзаце C." }
+          }
+        },
+        {
+          "id": "q7", "n": 7,
+          "prompt": "How did the opinion of Barcelona's shopkeepers change?",
+          "options": [
+            "A. They always supported the scheme.",
+            "B. They feared lost business at first but later saw sales rise.",
+            "C. They demanded that the scheme end.",
+            "D. They moved their shops to other districts."
+          ],
+          "answer": "B",
+          "evidence": "p4s4",
+          "paraphrase": { "question": "feared lost business … saw sales rise", "passage": "feared a loss of custom … takings had in fact risen" },
+          "explanation": {
+            "en": "'Loss of custom' = 'lost business' and 'takings had risen' = 'sales rise'. 'Later admitted' shows the change in opinion.",
+            "ru": "«Loss of custom» = «lost business», «takings had risen» = «sales rise». «Later admitted» показывает перемену мнения."
+          },
+          "wrong": {
+            "A": { "en": "They feared a loss of custom, so they did not 'always' support it.", "ru": "Они боялись потерять покупателей, значит, поддерживали не «всегда»." },
+            "C": { "en": "No demand to end the scheme is mentioned.", "ru": "Требования закрыть проект в тексте нет." },
+            "D": { "en": "Moving shops is not mentioned anywhere.", "ru": "О переезде магазинов нигде не сказано." }
+          }
+        }
+      ]
+    },
+    {
+      "id": "g3",
+      "type": "completion",
+      "typeLabel": "Sentence completion",
+      "title": "Question 8",
+      "instructions": {
+        "en": "Complete the sentence. Write NO MORE THAN TWO WORDS from the passage.",
+        "ru": "Дополните предложение. Напишите НЕ БОЛЕЕ ДВУХ СЛОВ из текста."
+      },
+      "questions": [
+        {
+          "id": "q8", "n": 8,
+          "prompt": "Some cities now link money for quiet zones to promises about ________.",
+          "options": null,
+          "answer": "affordable housing",
+          "accept": ["affordable housing"],
+          "evidence": "p5s3",
+          "paraphrase": { "question": "link money for quiet zones to promises about", "passage": "tying funding for quiet zones to commitments on" },
+          "explanation": {
+            "en": "'Link' = 'tying', 'money' = 'funding', 'promises' = 'commitments'. The words after 'commitments on' fill the gap exactly: affordable housing (two words).",
+            "ru": "«Link» = «tying», «money» = «funding», «promises» = «commitments». Слова после «commitments on» точно подходят: affordable housing (два слова)."
+          },
+          "wrong": {
+            "any": { "en": "Copy the words exactly as they appear. Check the limit of two words and the spelling.", "ru": "Копируйте слова точно как в тексте. Проверьте лимит в два слова и орфографию." }
+          }
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    { "word": "unavoidable", "def_en": "impossible to stop or escape", "synonym": "inevitable", "ru": "неизбежный", "preteach": true },
+    { "word": "barrier", "def_en": "a wall or object that blocks something", "synonym": "obstacle", "ru": "барьер, преграда", "preteach": false },
+    { "word": "lessen", "def_en": "to make something smaller or weaker", "synonym": "reduce", "ru": "уменьшать, ослаблять", "preteach": true },
+    { "word": "exposure", "def_en": "being in contact with something, often harmful", "synonym": "contact", "ru": "воздействие", "preteach": true },
+    { "word": "conventional", "def_en": "ordinary and traditional", "synonym": "standard", "ru": "обычный, традиционный", "preteach": true },
+    { "word": "custom", "def_en": "the business customers bring to a shop", "synonym": "trade", "ru": "клиентура, покупатели", "preteach": true },
+    { "word": "takings", "def_en": "money a shop receives from sales", "synonym": "revenue", "ru": "выручка", "preteach": true },
+    { "word": "initially", "def_en": "at the beginning", "synonym": "at first", "ru": "поначалу", "preteach": false },
+    { "word": "tying", "def_en": "making one thing depend on another", "synonym": "linking", "ru": "увязывать, привязывать", "preteach": false },
+    { "word": "commitments", "def_en": "serious promises to do something", "synonym": "pledges", "ru": "обязательства", "preteach": false }
+  ]
+}

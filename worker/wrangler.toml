@@ -1,0 +1,22 @@
+# Production API Worker. Replace YOURDOMAIN.com and the database_id.
+name = "marginalia-api"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+workers_dev = false
+
+# Same-origin API: the Pages site and the Worker share one domain, so the
+# session cookie is first-party and can be SameSite=Strict.
+routes = [{ pattern = "YOURDOMAIN.com/api/*", zone_name = "YOURDOMAIN.com" }]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "marginalia"
+database_id = "REPLACE_WITH_YOUR_D1_ID"
+
+[vars]
+ALLOWED_ORIGIN = "https://YOURDOMAIN.com"
+INACTIVE_DAYS = "5"
+
+# Secrets (never in this file):
+#   wrangler secret put INVITE_CODE
+#   wrangler secret put PASSWORD_PEPPER
